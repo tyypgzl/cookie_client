@@ -1,0 +1,17 @@
+enum CookieFailureType {
+  jsonParse,
+  dioCancel,
+  dioBadCertificate,
+  dioConnectTimeout,
+  dioReceiveTimeOut,
+  dioSendTimeOut,
+  connection,
+  other,
+  badRequest,
+  unAuthorized,
+  payment,
+  forbidden,
+  notFound,
+  intervalServer,
+  badGateway,
+}
